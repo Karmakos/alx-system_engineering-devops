@@ -1,0 +1,2 @@
+#!/bin/bash 
+ls -1aX | sed s/$/,/ | tr -d n && echo
