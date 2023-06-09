@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -a -b '^SCHOOL'
+grep -a -b '^SCHOOL' School
