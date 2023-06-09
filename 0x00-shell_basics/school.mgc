@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -a -b '^SCHOOL' School
+grep -l --binary-files=text -R -b "^SCHOOL" *
