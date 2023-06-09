@@ -1,2 +1,2 @@
 #!/bin/bash 
-ls -Ap1 | sort -d | tr '\n' ','; echo
+ls -Ap1 | sort -d | tr '\n' ',' | awk '{print substr($0, 1, length($0)-1)}'
