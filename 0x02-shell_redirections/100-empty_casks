@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -exec sh -c 'du -a "{}" | cut -f2' \; -o -type d -empty -exec sh -c 'du -a "{}" | cut -f2' \; | sort | uniq
+find . -type f -empty -exec printf "%s\\n" {} \\n -o -type d -empty -exec printf "%s\\n" {} \\n | sort | uniq
