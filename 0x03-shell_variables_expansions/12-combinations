@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d\\n {a..z}{a..z}|grep -v oo
+join -j 2 <(echo {a..z}) <(echo {a..z})|grep -v oo
