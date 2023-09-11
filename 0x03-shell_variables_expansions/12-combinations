@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d\\n {a..z}{a..z}|grep -v oo
+seq -s\\n {a..z}{a..z} | grep -v oo
