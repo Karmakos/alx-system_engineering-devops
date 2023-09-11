@@ -1,0 +1,2 @@
+#!/bin/bash
+seq -w -s '' 25 | tr '0-9' 'a-z' | grep -v 'oo'
