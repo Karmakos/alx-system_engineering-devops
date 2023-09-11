@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\n' <(echo {a..z}) <(echo {a..z}) | grep -v 'oo' | sort
+[print(f'{a}{b}') for a in 'abcdefghijklmnopqrstuvwxyz' for b in 'abcdefghijklmnopqrstuvwxyz' if a + b != 'oo']
