@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | sed ':a;N;$!ba;s/\n/, /g' | sed 's#\(.*\)/#\1/#' | sort -d -f -k1.1,1.2n -k1.3d -k1.4
+ls -ampX --sort=[0-9]
