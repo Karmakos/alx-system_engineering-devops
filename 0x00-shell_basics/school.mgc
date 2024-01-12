@@ -1,3 +1,3 @@
 #!/bin/bash
-file --mime-type --brief --dereference -- * .[^.]* | xargs -I{} sh -c 'echo -n "{}: "; file -b --mime-type --dereference -- "{}"' | sed 's/:$//'
-
+0 string SCHOOL School data files
+!:mime School
